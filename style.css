@@ -1,0 +1,44 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #434161;
+    color: white;
+    margin: 0;
+  }
+  
+  #title, p {
+    text-align: center;
+  }
+  
+  form {
+    background-color: #04031c;
+    opacity: 80%;
+    color: white;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: none;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    padding: 5px 0;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  
+  input[type="radio"] , input[type="checkbox"] {
+    width: unset;
+  }
+  
+  button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  

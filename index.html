@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Nautilus Library</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <h1 id="title">The Library of Nautilus</h1>
+    <p id="description">Help us to add your favorite book to our collection :)</p>
+
+<form id="survey-form">
+    <fieldset>
+      <label id="name-label">Enter your name: <input id="name" type:"text" placeholder="John Doe" required /></label>
+      <label id="email-label">Enter your Email ID: <input id="email" type="email" placeholder="johndoe@email.com" required /></label>
+      <label id="number-label">Enter your Age: <input id="number" type="number" min="10" max="150" placeholder="Age in years" /></label>
+    </fieldset>
+    <fieldset>
+      <label>How did you hear about us?
+        <select id="dropdown">
+          <option value="">(Select an option)</option>
+          <option value="1">Classmate</option>
+          <option value="2">Professor</option>
+          <option value="3">Mentor</option>
+          <option value="4">Relative</option>
+          <option value="5">Neighbour</option>
+        </select>
+      </label>
+      <label>You are a: </label>
+       <label>
+         <input name="profession" value="student" type="radio" /> Student
+      </label>
+      <label>
+         <input name="profession" value="professional" type="radio" /> Professional
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>Which is your favorite book genre?</label>
+      <label>
+        <input type="checkbox" value="classic"/> Classics
+      </label>
+      <label>
+        <input type="checkbox" value="thriller"/> Thriller 
+      </label>
+      <label>
+        <input type="checkbox" value="humor"/> Humor 
+      </label>
+      <label>
+        <input type="checkbox" value="adventure"/> Adventure 
+      </label>
+      <label>
+        <input type="checkbox" value="biography"/> Biography 
+      </label>
+      <label>
+        <input type="checkbox" value="self-help"/> Self-Help 
+      </label>
+      <label>
+        Introduce yourself to us in a few words: 
+        <textarea rows="3" cols="30" placeholder="I like diving into an ocean of Jules Verne's books..."></textarea>
+      </label>
+    </fieldset>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+  </body>
+
+</html>
